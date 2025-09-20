@@ -588,7 +588,7 @@
                         When You Need Appoinment?
                     </label><br>
                     <input type="date" required class="date"><br>
-                    <input type="submit" required class="submit">
+                    <input type="submit" required class="submit" onclick="done()">
                 </form>
                 <span
                     style="clip-path: polygon(100% 0, 0% 100%, 100% 100%);height: 20px;width: 22px;position: absolute;bottom: 0px;left:-20px;background: rgb(248, 244, 237);"></span>
@@ -652,11 +652,15 @@
     function click1() {
         document.getElementById("click_nap").style.display = "none";
     }
+    function done(){
+        alert("You are appointed");
+    }
 
 </script>
 
 
 </html>
+
 
 
 
