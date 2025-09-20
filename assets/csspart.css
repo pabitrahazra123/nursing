@@ -1127,6 +1127,7 @@ section {
 }
 
 .inputname1 {
+    outline:none;
     width: 102.6%;
     margin: 2px 0px 20px 0px;
     height: 33px;
@@ -1790,6 +1791,7 @@ footer {
     }
     
 }
+
 
 
 
